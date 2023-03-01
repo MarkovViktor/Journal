@@ -13,8 +13,7 @@
     <header class="mdc-top-app-bar">
       <div class="mdc-top-app-bar__row">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-          <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
-          <span class="mdc-top-app-bar__title">Page title</span>
+          <span class="mdc-top-app-bar__title">ATHAYOGA</span>
         </section>
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
           <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
@@ -25,9 +24,77 @@
     </header>
     <main class="mdc-top-app-bar--fixed-adjust">
       <div class="mdc-flow">
-        <h2>-Намасте</h2>
-        <h4>Онлайн-журнал о йоге, медитации и здоровье</h4>
-        <div  class="mdc-container">
+        <h2 class="mdc-title">-Намасте</h2>
+        <h4 class="mdc-subtitle">Онлайн-журнал о йоге, медитации и здоровье</h4>
+        <label class="mdc-text-field mdc-text-field--filled">
+          <span class="mdc-text-field__ripple"></span>
+          <span class="mdc-floating-label" id="my-label-id">Поиск</span>
+          <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+          <span class="mdc-line-ripple"></span>
+        </label>
+        <div class="mdc-tab-bar" role="tablist">
+          <div class="mdc-tab-scroller">
+            <div class="mdc-tab-scroller__scroll-area">
+              <div class="mdc-tab-scroller__scroll-content">
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Йога</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Философия</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Медитация</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Здоровье</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Путешествия</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Показать все</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div  class="mdc-card-container">
           <div class="mdc-card">
             <div class="mdc-card__primary-action">
               <div class="mdc-card__media mdc-card__media--square">

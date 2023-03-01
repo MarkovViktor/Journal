@@ -5,7 +5,28 @@
   margin: 0 auto;
 }
 
-.mdc-container {
+.mdc-title {
+  font-size: 72px;
+}
+
+.mdc-subtitle {
+  font-size: 18px;
+  margin: 58px 0 0;
+}
+
+.mdc-text-field {
+  margin: 40px 0;
+}
+
+.mdc-tab {
+  padding: 0 20px;
+}
+
+.mdc-tab__text-label {
+  font-size: 16px;
+}
+
+.mdc-card-container {
 
 }
 
