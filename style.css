@@ -19,11 +19,34 @@
 }
 
 .mdc-tab {
-  padding: 0 20px;
+  padding: 0;
+  justify-content: left;
+  min-width: 30px;
+}
+
+.mdc-tab-bar {
+  margin: 0 0 48px;
+  max-width: 732px;
 }
 
 .mdc-tab__text-label {
   font-size: 16px;
+  text-transform: none;
+}
+
+.mdc-cards-keywords-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mdc-keywords-container {
+  width: 100px;
+  height: auto;
+}
+
+.mdc-keywords-title {
+  font-size: 16px;
+  margin: 0;
 }
 
 .mdc-card-container {
