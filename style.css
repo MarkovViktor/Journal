@@ -1,11 +1,37 @@
-body {
-font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
+/* @use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
 
+@include textfield.core-styles; */
+
+body {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mdc-top-app-bar {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  box-shadow: 0px 8px 16px rgba(46, 60, 80, 0.08);
+}
+
+.mdc-top-app-bar__section {
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
 }
 
 .mdc-flow {
