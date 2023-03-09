@@ -1,3 +1,38 @@
+/* @use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles; */
+
+body {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+nav {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  box-shadow: 0px 8px 16px rgba(46, 60, 80, 0.08);
+}
+
+.mdc-top-app-bar__section {
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+}
 
 .mdc-flow {
   width: 65%;
@@ -5,8 +40,14 @@
   margin: 0 auto;
 }
 
-.title {
+.mdc-title {
+  font-family: 'Philosopher', sans-serif;
   font-size: 72px;
+  font-weight: 400;
+  line-height: 79px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 50px;
 }
 
 .subtitle {
@@ -49,9 +90,10 @@
   margin: 0;
 }
 
-.card-container {
-
+.mdc-card-container {
+  width: 860px;
+  max-width: 80%;
 }
 
-.card {
-}
+.mdc-card {
+  min-height: fit-content;
