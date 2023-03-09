@@ -12,6 +12,9 @@ body {
   line-height: 25px;
   letter-spacing: 0em;
   text-align: left;
+  width: 65%;
+  max-width: 1236px;
+  margin: 0 auto;
 }
 
 nav {
@@ -32,12 +35,6 @@ nav {
   align-items: center;
   padding: 16px 24px;
   gap: 8px;
-}
-
-.flow {
-  width: 65%;
-  max-width: 1236px;
-  margin: 0 auto;
 }
 
 .title {
