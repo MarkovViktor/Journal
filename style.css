@@ -34,13 +34,13 @@ nav {
   gap: 8px;
 }
 
-.mdc-flow {
+.flow {
   width: 65%;
   max-width: 1236px;
   margin: 0 auto;
 }
 
-.mdc-title {
+.title {
   font-family: 'Philosopher', sans-serif;
   font-size: 72px;
   font-weight: 400;
@@ -90,10 +90,60 @@ nav {
   margin: 0;
 }
 
-.mdc-card-container {
+.card-container {
   width: 860px;
   max-width: 80%;
 }
 
-.mdc-card {
+.card {
   min-height: fit-content;
+  display: grid;
+  min-width: 858px;
+  grid-template-areas: 
+  "avatar img"
+  "title  img"
+  "stitle img";
+}
+
+.card-avatar-container {
+  display: flex;
+  grid-area: avatar;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 16px 0 0 0;
+  grid-area: title;
+}
+
+.card-subtitle {
+  grid-area: stitle;
+}
+
+.card-img {
+  grid-area: img;
+}
+
+.avatar-button {
+  display: flex;
+  border: none;
+  cursor: pointer;
+  background: inherit;
+}
+
+.avatar-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+.avatar-name {
+  margin: 8px 0 0 10px;
+  font-size: 14px;
+}
+
+.avatar-date {
+  margin: 6px 0 0 0;
+  font-size: 14px;
+}
