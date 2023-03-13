@@ -99,7 +99,8 @@ nav {
   grid-template-areas: 
   "avatar img"
   "title  img"
-  "stitle img";
+  "stitle img"
+  "line line";
 }
 
 .card-avatar-container {
@@ -120,6 +121,12 @@ nav {
 
 .card-img {
   grid-area: img;
+}
+
+.card-bottom-line {
+  border-bottom: 1px solid #E0E0E0;
+  grid-area: line;
+  margin-top: 66px;
 }
 
 .avatar-button {
@@ -144,3 +151,24 @@ nav {
   margin: 5px 0 0 0;
   font-size: 14px;
 }
+
+.footer {
+
+}
+
+.footer-title-container {
+
+}
+
+.footer-menu-container {
+
+}
+
+.footer-socnetwork-container {
+
+}
+
+.footer-instructions-container {
+
+}
+
